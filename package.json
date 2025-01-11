@@ -2,13 +2,18 @@
   "name": "linux-arduino-intellisense-fix",
   "displayName": "Linux Arduino Intellisense Fix",
   "description": "Adds workspace folder and .arduino to c_cpp_properties.json include path",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "Trifecta",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
     "Other"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TrifectaKS/linux-arduino-intellisense-fix"
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
